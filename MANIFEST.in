@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bmiva *.css
+recursive-include bmiva *.csv
+recursive-include bmiva *.html
+recursive-include bmiva *.ico
+recursive-include bmiva *.js
+recursive-include bmiva *.json
+recursive-include bmiva *.md
+recursive-include bmiva *.png
+recursive-include bmiva *.py
+recursive-include bmiva *.svg
+recursive-include bmiva *.txt
+recursive-exclude bmiva *.pyc
